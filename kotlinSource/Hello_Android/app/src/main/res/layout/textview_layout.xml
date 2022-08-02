@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:textSize="30sp"
+        android:textColor="#0000ff" />
+
+    <!--   对电话号码增加链接 -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="电话咨询 800800800"
+        android:autoLink="phone"
+        android:textSize="26sp"
+        android:textColor="#aa00ff" />
+
+    <!--  文本中间省略  -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello Android!Hello Android!Hello Android!Hello Android!Hello Android!Hello Android!Hello Android!Hello Android!"
+        android:ellipsize="middle"
+        android:singleLine="true"
+        android:textSize="32sp"
+        android:textColor="#00ccff"/>
+
+</LinearLayout>
