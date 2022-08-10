@@ -12,4 +12,34 @@
         android:layout_height="wrap_content"
         android:text="close button"
         android:textAllCaps="false" />
+    <Button
+        android:id="@+id/startBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="start activity"
+        android:textAllCaps="false" />
+    <Button
+        android:id="@+id/sendBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="send message"
+        android:textAllCaps="false" />
+    <Button
+        android:id="@+id/requestBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="request message"
+        android:textAllCaps="false" />
+    <Button
+        android:id="@+id/lifeBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="lifecycle"
+        android:textAllCaps="false" />
+    <Button
+        android:id="@+id/standardBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="standard"
+        android:textAllCaps="false" />
 </LinearLayout>
