@@ -1,36 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center_horizontal"
-    android:padding="30dp">
+    android:padding="20dp"
+    tools:context=".TouristSpotActivity">
 
     <EditText
-        android:id="@+id/nameEt"
+        android:id="@+id/spotEt"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:hint="name" />
+        android:hint="spot"
+        android:lines="1"/>
 
     <EditText
-        android:id="@+id/phoneEt"
+        android:id="@+id/detailEt"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:hint="phone"
-        android:inputType="phone" />
-
-    <EditText
-        android:id="@+id/mailEt"
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
-        android:hint="email"
-        android:inputType="textEmailAddress" />
+        android:hint="detail"
+        android:maxLines="3"/>
 
     <Button
         android:id="@+id/insertBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="insert contact" />
+        android:text="insert" />
 
     <View
         android:layout_width="match_parent"
@@ -38,10 +35,10 @@
         android:background="#888888" />
 
     <TextView
-        android:id="@+id/contactsTv"
+        android:id="@+id/spotsTv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="15sp"
-        android:hint="contacts" />
+        android:hint="Tourist Spot"
+        android:textSize="15sp" />
 
 </LinearLayout>
