@@ -19,7 +19,7 @@ class TSDatabaseHelper(context: Context, name: String, version: Int): SQLiteOpen
             "detail text)"
 
     override fun onCreate(db: SQLiteDatabase?) {
-        db?.execSQL(createTouristSpot)
+        db?.execSQL(createTouristSpot)// 执行创建"表"的操作
     }
 
     override fun onUpgrade(p0: SQLiteDatabase?, p1: Int, p2: Int) {

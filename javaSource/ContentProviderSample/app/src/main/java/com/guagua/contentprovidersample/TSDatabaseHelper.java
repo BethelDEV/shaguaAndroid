@@ -29,7 +29,7 @@ public class TSDatabaseHelper extends SQLiteOpenHelper {
 
     @Override
     public void onCreate(SQLiteDatabase sqLiteDatabase) {
-        sqLiteDatabase.execSQL(createTouristSpot);
+        sqLiteDatabase.execSQL(createTouristSpot);// 执行创建"表"的操作
     }
 
     @Override
