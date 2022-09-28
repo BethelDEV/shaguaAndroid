@@ -21,7 +21,7 @@ class NetworkChangeReceiver : BroadcastReceiver() {
         private const val TAG = "NetworkChangeReceiver"
     }
 
-    override fun onReceive(context: Context?, p1: Intent?) {
+    override fun onReceive(context: Context?, intent: Intent?) {
         val manager: ConnectivityManager =
             context?.getSystemService(Context.CONNECTIVITY_SERVICE) as ConnectivityManager
         val info: NetworkInfo? = manager?.activeNetworkInfo
