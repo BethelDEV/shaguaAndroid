@@ -30,7 +30,10 @@
 
         <provider
             android:name=".TouristSpotContentProvider"
-            android:authorities="com.guagua.providers.tourists" />
+            android:authorities="com.guagua.providers.tourists"
+            android:exported="true"
+            android:enabled="true"
+            android:grantUriPermissions="true"/>
     </application>
 
 </manifest>
